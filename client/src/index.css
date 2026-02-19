@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@600;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Sora", "Inter", sans-serif;
+
+  --color-navy: #0B1F3B;
+  --color-navy2: #102A52;
+  --color-beige: #F4EFE6;
+  --color-paper: #FBF8F2;
+  --color-cta: #F97316;
+  --color-teal: #14B8A6;
+  --color-muted: #516072;
+  --color-line: rgba(17, 24, 39, 0.14);
+}
+
+body {
+  @apply bg-beige text-gray-900 font-sans;
+  background:
+    radial-gradient(1200px 520px at 18% 8%, rgba(20, 184, 166, .10), transparent 60%),
+    radial-gradient(1000px 420px at 82% 0%, rgba(249, 115, 22, .10), transparent 55%),
+    #F4EFE6;
+}
